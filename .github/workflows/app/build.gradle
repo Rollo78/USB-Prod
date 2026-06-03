@@ -1,0 +1,20 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace "at.amteq.produktion5046usbdev"
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "at.amteq.produktion5046usbdev"
+        minSdk 23
+        targetSdk 35
+        versionCode 5046002
+        versionName "5046-usb-dev-localhost"
+    }
+}
+
+dependencies {
+    implementation 'androidx.core:core:1.13.1'
+}
